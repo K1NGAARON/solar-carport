@@ -27,17 +27,19 @@
                 <a class="nav-logo" href="/">
                     <img class="logo" src="/assets/logo/logo.png" alt="Logo">
                 </a>
-                <a class="nav" href="/">
-                    Home
-                </a>
-                <a class="nav" href="#about/">
-                    Over ons
-                </a>
-                <a class="nav" href="#gallery">
-                    Gallerij
-                </a>
+                <nav>
+                    <a class="nav" href="/">
+                        Realisaties
+                    </a>
+                    <a class="nav" href="#about/">
+                        Klanten
+                    </a>
+                    <a class="nav" href="#gallery">
+                        FAQ
+                    </a>
+                </nav>
                 <a href="/#contact" class="btn ghost white">
-                    Openingsuren
+                    Gratis offerte
                 </a>
             </div>
         </div>
@@ -57,22 +59,21 @@
         <div class="small-menu-wrapper">
             <div class="small-menu-content">
                 <a class="nav" href="/">
-                    Home
+                    Realisaties
                 </a>
                 <a class="nav" href="#about">
-                    Over ons
+                    Klanten
                 </a>
                 <a class="nav" href="#gallery">
-                    Gallerij
+                    FAQ
                 </a>
-                <a href="#contact" class="nav">
-                    Openingsuren
+                <a href="#contact">
+                    Gratis offerte
                 </a>
             </div>
         </div>
     </div>
 </header>
-
 
 <div class="section banner" id="contact">
     <div class="row">
@@ -91,22 +92,44 @@
                 </h2>
                 <div class="form-wrapper">
                     <form action="https://formspree.io/f/xvonbepr" method="post" class="validate contact-form" target="_blank" novalidate>
-                        <input type="text" value="" name="FNAME" placeholder="Jouw naam*" required>
-                        <input type="email" value="" name="EMAIL" placeholder="Emailadres*" required>
-                        <input type="text" value="" name="PHONE" placeholder="GSM nummer*" required>
-                        <input type="text" value="" name="MESSAGE"placeholder="Jouw bericht">
-                        <input type="submit" value="Verstuur➔" name="subscribe" class="btn">
+                        <input type="text" value="" name="FNAME" placeholder="Vul je voornaam in" required>
+                        <input type="email" value="" name="EMAIL" placeholder="Vul je mail in" required>
+                        <input type="text" value="" name="PHONE" placeholder="Vul je GSM nummer in" required>
+                        <input type="text" value="" name="CITY" placeholder="In welke stad woon je?" required>
+                        <input type="text" value="" name="TIMEFRAME" placeholder="Wanneer van plan en carport te installeren?" required>
+                        <input type="submit" value="Ontvang jouw gratis offerte ➔" name="subscribe" class="btn">
+                        <p class="small">
+                            Wij x zal jouw gegevens nooit met derden delen.
+                        </p>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <div class="overlay"></div>
 </div>
 
 <div class="section features grey">
     <div class="row">
         <div class="wrapper">
-
+            <div class="item">
+                <img src="/home/img/placeholder-icon.png" alt="">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </p>
+            </div>
+            <div class="item">
+                <img src="/home/img/placeholder-icon.png" alt="">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </p>
+            </div>
+            <div class="item">
+                <img src="/home/img/placeholder-icon.png" alt="">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </p>
+            </div>
         </div>
     </div>
 </div>
@@ -126,7 +149,7 @@
         </div>
         <div class="col">
             <div class="img-slider">
-                <img src="" alt="">
+                <img src="/home/img/image.jpg" alt="">
             </div>
         </div>
     </div>
@@ -136,7 +159,7 @@
     <div class="row">
         <div class="col">
             <div class="video-wrapper">
-                <span>hier komt een video</span>
+                <img src="/home/img/image.jpg" alt="">
             </div>
         </div>
         <div class="col">
@@ -155,9 +178,14 @@
 
 <div class="section reviews grey">
     <div class="row">
-        <div class="col">
+        <div class="col row center">
             <div class="review">
-
+                <p class="body">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate dictum magna."
+                </p>
+                <p class="author">
+                    Naam + familienaam
+                </p>
             </div>
         </div>
         <div class="col">
@@ -184,7 +212,53 @@
             </h2>
         </div>
         <div class="col">
-
+            <div class="accordion-list">
+                <div class="accordion-item">
+                    <div class="accordion-head active">
+                        <h5>
+                            Vraag 1
+                        </h5>
+                        <div class="icon active">
+                            <i class="fa-solid fa-minus"></i>
+                        </div>
+                    </div>
+                    <div class="accordion-body active">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum vitae sunt ex eos optio? Error adipisci hic ullam accusamus.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-head">
+                        <h5>
+                            Vraag 2
+                        </h5>
+                        <div class="icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti unde, itaque dolores voluptatibus nam necessitatibus enim recusandae facere aperiam quibusdam?
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-head">
+                        <h5>
+                            Vraag 3
+                        </h5>
+                        <div class="icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ipsa, unde nisi quisquam neque numquam perspiciatis minus fuga velit iste.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -203,7 +277,7 @@
 
 
 <footer>
-    <div class="section footer" id="footer">
+    <div class="section footer black" id="footer">
         <div class="row">
             <img src="/assets/logo/logo.png" alt="Logo" class="logo">
             <p class="legal">
